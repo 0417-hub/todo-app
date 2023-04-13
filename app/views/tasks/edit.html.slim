@@ -1,0 +1,8 @@
+h1
+  | 編集
+= form_with model: @task do |f|
+  div = f.label :title
+  div = f.text_field :title
+  div = f.submit
+
+= link_to 'Back', tasks_path
