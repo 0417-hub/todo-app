@@ -60,3 +60,6 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
 gem 'sprockets-rails'
+gem "dockerfile-rails", ">= 1.2", :group => :development
+
+gem "pg", "~> 1.4"
